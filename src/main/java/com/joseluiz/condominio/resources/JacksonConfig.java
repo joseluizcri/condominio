@@ -1,4 +1,4 @@
-package com.jhonystein.pedidex.resources;
+package com.joseluiz.condominio.resources;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;

@@ -1,6 +1,6 @@
-package com.jhonystein.pedidex.utils;
+package com.joseluiz.condominio.utils;
 
-import com.jhonystein.pedidex.models.Entidade;
+import com.joseluiz.condominio.models.Entidade;
 import java.util.Arrays;
 import java.util.List;
 import javax.persistence.EntityManager;

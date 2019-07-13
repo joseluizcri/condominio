@@ -1,4 +1,4 @@
-package com.jhonystein.pedidex.resources;
+package com.joseluiz.condominio.resources;
 
 import java.util.Arrays;
 import java.util.HashMap;

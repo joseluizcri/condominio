@@ -1,7 +1,7 @@
-package com.jhonystein.pedidex.service;
+package com.joseluiz.condominio.service;
 
-import com.jhonystein.pedidex.models.Entidade;
-import com.jhonystein.pedidex.utils.GenericDao;
+import com.joseluiz.condominio.models.Entidade;
+import com.joseluiz.condominio.utils.GenericDao;
 import java.util.List;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;

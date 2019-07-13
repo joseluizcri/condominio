@@ -1,4 +1,4 @@
-package com.jhonystein.pedidex.models;
+package com.joseluiz.condominio.models;
 
 import java.io.Serializable;
 

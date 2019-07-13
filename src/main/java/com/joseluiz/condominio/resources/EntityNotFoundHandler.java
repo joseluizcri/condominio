@@ -1,4 +1,4 @@
-package com.jhonystein.pedidex.resources;
+package com.joseluiz.condominio.resources;
 
 import javax.persistence.EntityNotFoundException;
 import javax.ws.rs.core.Response;

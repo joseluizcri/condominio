@@ -1,7 +1,7 @@
-package com.jhonystein.pedidex.resources;
+package com.joseluiz.condominio.resources;
 
-import com.jhonystein.pedidex.models.Entidade;
-import com.jhonystein.pedidex.service.AbstractService;
+import com.joseluiz.condominio.models.Entidade;
+import com.joseluiz.condominio.service.AbstractService;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.DefaultValue;

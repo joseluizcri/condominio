@@ -1,6 +1,6 @@
-package com.jhonystein.pedidex.utils;
+package com.joseluiz.condominio.utils;
 
-import com.jhonystein.pedidex.models.Entidade;
+import com.joseluiz.condominio.models.Entidade;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import javax.enterprise.context.Dependent;
