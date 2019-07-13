@@ -1,5 +1,9 @@
 package com.joseluiz.condominio.models;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,6 +12,7 @@ import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.List;
 
 @Getter
 @Setter
@@ -40,5 +45,9 @@ public class Pessoa implements Entidade {
     @Email(message = "O campo e-mail deve ser uma e-mail válido")
     @Column(name = "DS_EMAIL", length = 120)
     private String email;
+
+    @ManyToMany(mappedBy = "moradores", fetch = FetchType.EAGER)
+    @JsonIgnoreProperties("moradores")
+    private List<Apartamento> apartamentos;
 
 }

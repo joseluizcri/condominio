@@ -1,6 +1,6 @@
 package com.joseluiz.condominio.service;
 
-import com.joseluiz.condominio.models.Pessoa;
+import com.joseluiz.condominio.models.Apartamento;
 import com.joseluiz.condominio.utils.GenericDao;
 
 import javax.ejb.Stateless;
@@ -10,13 +10,13 @@ import javax.inject.Inject;
 
 @Stateless
 @TransactionAttribute(TransactionAttributeType.SUPPORTS)
-public class PessoaService extends AbstractService<Pessoa> {
+public class ApartamentoService extends AbstractService<Apartamento> {
 
     @Inject
-    private GenericDao<Pessoa> daoPessoa;
+    private GenericDao<Apartamento> daoApartamento;
 
     @Override
-    protected GenericDao<Pessoa> getDao() {
-        return daoPessoa;
+    protected GenericDao<Apartamento> getDao() {
+        return daoApartamento;
     }
 }
