@@ -3,7 +3,7 @@ swarm:
     data-sources:
       PedidexDS:
         driver-name: postgresql
-        connection-url: jdbc:postgresql://localhost:5432/jhony.pereira
+        connection-url: jdbc:postgresql://localhost:5432/jose.luiz
         user-name: postgres
         password: postgres
         valid-connection-checker-class-name: org.jboss.jca.adapters.jdbc.extensions.postgres.PostgreSQLValidConnectionChecker
